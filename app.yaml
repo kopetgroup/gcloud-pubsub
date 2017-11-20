@@ -1,0 +1,10 @@
+runtime: php55
+api_version: 1
+
+handlers:
+#- url: /.*
+- url: /
+  script: index.php
+
+- url: /receive.php
+  script: receive.php
